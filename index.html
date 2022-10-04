@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Landing page</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&family=Josefin+Sans&family=Roboto&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .first-part {
+            width: 100vw;
+            height: 100vh;
+            /* font-family: 'Roboto', sans-serif;
+            font-family: 'Gemunu Libre', sans-serif; */
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
+        .first-part::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-image: url('img.jpg');
+            background-size: 100% 100%;
+            background-position: center;
+            z-index: -1;
+            opacity: 0.9;
+        }
+
+
+        .first-part h1,
+        .sub-heading {
+            font-size: 50px;
+            color: #343333;
+            display: inline;
+        }
+
+        .first-part h1 .small-size {
+            font-size: 30px;
+
+        }
+
+        .line1 {
+            padding-top: 80px;
+            padding-left: 70px;
+        }
+
+        .line2 {
+            padding-left: 70px;
+        }
+
+        @media (max-width:900px) {
+            .first-part {
+                height: 60vh;
+            }
+            .first-part::before{
+                height: 60%;
+            }
+        }
+
+        @media (max-width:700px) {
+            .first-part {
+                height: 50vh;
+            }
+            .first-part::before{
+                height: 50%;
+            } 
+
+            .first-part h1,
+            .sub-heading {
+                font-size: 40px;
+            }
+
+            .first-part h1 .small-size {
+                font-size: 23px;
+            }
+        }
+
+        @media (max-width:480px) {
+
+            .line1,
+            .line2 {
+                padding: 0px;
+                text-align: center;
+            }
+
+            .line1 {
+                padding-top: 90px;
+            }
+
+            .first-part h1,
+            .sub-heading {
+                font-size: 33px;
+            }
+
+            .first-part h1 .small-size {
+                font-size: 17px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="first-part">
+        <div class="line1">
+            <h1>Hello ,<label class="small-size"> I'm Neeraj Jain</label></h1>
+        </div>
+
+        <div class="line2">
+            <p class="sub-heading">Frondend Developer</p>
+        </div>
+    </div>
+    </div>
+
+    <div class="containent">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta est eos recusandae dolores aspernatur velit
+            qui nostrum totam. At non facere exercitationem pariatur, voluptatibus ea culpa! Ipsam porro qui placeat!
+            Eaque, nihil? Minus, ratione et quaerat eius quo maxime aliquam, tenetur accusamus inventore architecto
+            molestias ut, officiis ex hic facilis expedita nemo numquam aut explicabo deleniti voluptatum. Nulla totam
+            aliquam natus? Cum molestiae porro quam mollitia, nulla quia harum eligendi blanditiis, doloribus illo iure
+            aliquid nesciunt numquam enim saepe aspernatur in! Dolorem, consectetur quaerat facilis reprehenderit
+            mollitia eos a magnam sunt odio, perspiciatis suscipit? Nemo aliquam facilis unde consectetur magni optio
+            sunt inventore quidem quaerat vitae accusantium mollitia, repellat ad consequuntur quis deserunt?
+            Recusandae, sapiente quae? Nihil, voluptatum libero! Vero blanditiis aliquid expedita hic beatae cumque
+            consequatur eligendi? Ratione quis pariatur, saepe, est doloremque ipsa corporis voluptas, officia assumenda
+            voluptatibus laudantium sit sed quod repellendus deleniti ab. Earum sequi laborum amet tenetur,
+            reprehenderit fugit itaque nostrum, possimus, quisquam ipsa asperiores voluptatum officiis suscipit
+            exercitationem alias? Aperiam, odit impedit quod quia pariatur iusto mollitia porro autem quam ipsa velit
+            ipsum ea eum officiis cupiditate laboriosam dolore, esse eaque est omnis ut! Perspiciatis, ipsum eligendi
+            non eum dolores optio cupiditate facilis hic!
+        </p>
+    </div>
+</body>
+
+</html>
