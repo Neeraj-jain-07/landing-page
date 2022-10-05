@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&family=Josefin+Sans&family=Roboto&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .first-part {
+            width: 100vw;
+            height: 100vh;
+            /* font-family: 'Roboto', sans-serif;
+                font-family: 'Gemunu Libre', sans-serif; */
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
+        .first-part::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100vh;
+            background-image: url('img.jpg');
+            background-size: 100% 100%;
+            background-position: center;
+            z-index: -1;
+            opacity: 0.9;
+        }
+
+
+        .first-part h1,
+        .sub-heading {
+            font-size: 50px;
+            color: #343333;
+            display: inline;
+        }
+
+        .first-part h1 .small-size {
+            font-size: 30px;
+
+        }
+
+        .line1 {
+            padding-top: 80px;
+            padding-left: 70px;
+        }
+
+        .line2 {
+            padding-left: 70px;
+        }
+
+        .work {
+            /* height: 30vh; */
+            padding: 25px;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        .work p {
+            font-size: 70px;
+            display: inline;
+        }
+
+        .work label {
+            font-size: 90px;
+        }
+
+        .skill {
+            padding: 60px 0px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .box {
+            width: 27%;
+            min-width: 264px;
+            border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            transition: 0.2s ease-in-out;
+        }
+
+        .box:hover {
+            transform: scale(1.03);
+        }
+
+        .box img {
+            width: 100%;
+            border-radius: 15px 15px 0px 0px;
+        }
+
+        .box h4 {
+            padding: 20px;
+            text-align: justify;
+            font-weight: bolder;
+            font-size: 23px;
+        }
+
+        .box p {
+            padding: 0px 20px 20px;
+            text-align: justify;
+            cursor: pointer;
+        }
+
+        .box p:hover {
+            color: red;
+        }
+
+        .contact-section{
+            display: flex;
+            border:1px solid black;
+        }
+
+        .contact-section h3{
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .contact-me{
+            padding:40px 60px 40px 60px;
+            background-color: red;
+            color:white;
+        }
+
+
+        .about-me{
+            padding:40px 60px 40px 60px;
+            background-color: chocolate;
+            color:white;
+
+        }
+
+        .footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            
+        }
+        .footer p{
+            padding:20px;
+            font-size: 18px;
+        }

@@ -1,0 +1,160 @@
+body{
+    overflow-x: hidden;
+}
+
+@media (max-width:900px) {
+    .first-part {
+        height: 80vh;
+    }
+    .first-part::before{
+        height: 80%;
+    }
+    .work p{
+      font-size: 65px;
+    }
+    .work label{
+       font-size: 82px;
+    }
+
+    .box{
+        width: 24%;
+        margin:0px 30px;  
+        min-width: 221px;
+    }
+
+    .skill{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(265px,1fr));
+        grid-row-gap: 40px;
+    }
+  
+}
+
+@media (max-width:796px) {
+    .work p{
+        font-size: 55px;
+      }
+      .work label{
+         font-size: 72px;
+      }
+
+      .box{
+        width: 29%;
+        min-width: 265px;
+    }
+    .box3{
+        margin: 0px 58%;
+    }
+}
+
+@media (max-width:750px) {
+    .contact-section{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:700px) {
+    .first-part {
+        height: 70vh;
+    }
+    .first-part::before{
+        height: 70%;
+    } 
+
+    .first-part h1,
+    .sub-heading {
+        font-size: 40px;
+    }
+
+    .first-part h1 .small-size {
+        font-size: 23px;
+    }
+
+    .work p{
+        font-size: 50px;
+      }
+      .work label{
+         font-size: 65px;
+      }
+
+      .box{
+        width: 30%;
+        margin-left: 45px;
+    }
+    .box3{
+        margin: 0px 58%;
+    }
+}
+
+@media (max-width:660px) {
+    .work p{
+        font-size: 43px;
+      }
+      .work label{
+         font-size: 55px;
+      }
+      .box{
+        margin-left: 30px;
+      }
+      .box3{
+        margin: 0px 58%;
+    }
+}
+
+@media (max-width:630px) {
+      .box{
+        margin-left: 20px;
+      }
+      .box3{
+        margin: 0px 58%;
+    }
+}
+
+@media (max-width:600px) {
+    .skill{
+        display: block;
+    }
+
+    .box{
+        margin:0px auto 55px;
+        width: 390px;
+    }
+}
+
+
+
+
+@media (max-width:530px) {
+    .work p{
+        font-size: 34px;
+      }
+      .work label{
+         font-size: 43px;
+      }
+
+     
+}
+
+@media (max-width:480px) {
+
+    .line1,
+    .line2 {
+        padding: 0px;
+        text-align: center;
+    }
+
+    .line1 {
+        padding-top: 90px;
+    }
+
+    .first-part h1,
+    .sub-heading {
+        font-size: 33px;
+    }
+
+    .first-part h1 .small-size {
+        font-size: 17px;
+    }
+
+   
+}
