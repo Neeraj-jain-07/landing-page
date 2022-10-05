@@ -58,7 +58,7 @@ body{
         height: 70vh;
     }
     .first-part::before{
-        height: 70%;
+        height: 70vh;
     } 
 
     .first-part h1,
@@ -135,7 +135,7 @@ body{
       }
 
       .box{
-        width:320px;
+        width:350px;
       }
 
      
