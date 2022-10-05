@@ -101,6 +101,8 @@ body{
     }
 }
 
+
+
 @media (max-width:630px) {
       .box{
         margin-left: 20px;
@@ -130,6 +132,10 @@ body{
       }
       .work label{
          font-size: 43px;
+      }
+
+      .box{
+        width:320px;
       }
 
      
